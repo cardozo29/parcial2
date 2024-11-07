@@ -1,0 +1,83 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+/* Estilos para el logo */
+.navbar-brand .logo {
+    width: 60px;
+    height: auto;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+/* Títulos */
+h1, p {
+    margin-top: 30px;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+}
+
+.contact-form label {
+    font-size: 16px;
+}
+
+.contact-form .form-control {
+    background-color: #444;
+    border: 1px solid #666;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact-form .form-control:focus {
+    background-color: #555;
+    border-color: #f39c12;
+    outline: none;
+}
+
+/* Botón de envío */
+.contact-form button[type="submit"] {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.contact-form button[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #222;
+    padding: 10px 0;
+}
+/* Estilos para el título */
+.custom-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #f39c12;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+}
